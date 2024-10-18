@@ -1,0 +1,17 @@
+{
+  "name": "anima-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2",
+    "vite": "^5.4.8",
+    "vite-plugin-image-optimizer": "^1.1.8"
+  }
+}

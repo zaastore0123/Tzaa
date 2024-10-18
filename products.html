@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>GEN-Z Store products</title>
+</head>
+
+<body>
+  <header class="section-navbar">
+    <section class="top_txt">
+      <div class="head container">
+        <div class="head_txt">
+          <p>Free Shipping, 30-days return or refund guarantee</p>
+        </div>
+        <div class="sing_in_up">
+          <a href="sign-up.html">SIGN UP</a>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="index.html">
+          <img src="/imges/logo,png.png" alt="GEN-Z store" class="logo" width="80%" height="auto" />
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">products</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+              <i class="fa-solid fa-cart-shopping"></i> 0</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="section-extra-product">
+    <div class="container grid grid-three--cols">
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get and extra 50% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-p">
+          <img src="/imges/dragonball.img.png" alt="dragoon ball img" />
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>40% discount on Keychain</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img">
+          <img src="/imges/jujustu kaisen img.jpg" alt="jujustu kaisen" />
+        </div>
+      </div>
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get and extra 40% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img">
+          <img src="/imges/demon slayer img.png" alt="demon slayer T-shirt" />
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+
+  <section class="section-products container">
+    <div class="">
+      <div class="section-common-heading">
+        <h2> Checkout GEN-Z Store</h2>
+      </div>
+      <section class="container">
+        <div id="productContainer">
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <template id="productTemplate">
+    <div class="cards" id="cardValue">
+      <article class="information [card]">
+        <span class="category"></span>
+        <div class="imageContainer">
+          <img class="productImage" src="" alt="" />
+        </div>
+        <h2 class="productName"></h2>
+
+        <div class="productRating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p class="productDescription"></p>
+
+        <div class="productPriceElement">
+          <p class="productPrice"></p>
+          <p class="productActualPrice"></p>
+        </div>
+
+        <div class="productStockElement">
+          <p class="productProperty">Total Stocks Available:</p>
+          <p class="productStock"></p>
+        </div>
+
+        <div class="productQuantityElement">
+          <p class="productProperty">Quantity(Pieces)</p>
+          <div class="stockElement">
+            <button class="cartIncrement">+</button>
+            <p class="productQuantity" data-quantity='1'>1</p>
+            <button class="cartDecrement">-</button>
+          </div>
+        </div>
+
+        <button class="add-to-cart-button">
+          <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+        </button>
+      </article>
+    </div>
+  </template>
+
+
+
+  <footer class="section-footer">
+    <div class="footer-container container">
+      <div class="content_1">
+        <img src="/imges/logo,png.png" alt="logo" />
+        <p>
+          Welcome to GEN-Z Store, your ultimate destination for
+          Anima world!
+        </p>
+        <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+      </div>
+      <div class="content_2">
+        <h4>SHOPPING</h4>
+        <a href="#">Anima Figurs</a>
+        <a href="#">Keychains</a>
+        <a href="#">Hoodies</a>
+        <a href="#">Sales & Discount</a>
+      </div>
+      <div class="content_3">
+        <h4>Experience</h4>
+        <a href="./contact.html">Contact Us</a>
+        <a href="" target="_blank">Payment Method</a>
+        <a href="" target="_blank">Delivery</a>
+        <a href="" target="_blank">Return and Exchange</a>
+      </div>
+      <div class="content_4">
+        <h4>NEWSLETTER</h4>
+        <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+        <div class="f-mail">
+          <input type="email" placeholder="Your Email" />
+          <i class="bx bx-envelope"></i>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="f-design">
+      <div class="f-design-txt">
+        <p>Copyrights all reserved 2024-2025</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script type="module" src="main.js"></script>
+
+</body>
+
+</html>

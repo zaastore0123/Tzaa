@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact-style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact Page</title>
+  </head>
+  <body>
+
+    <header class="section-navbar">
+      <section class="top_txt">
+        <div class="head container">
+          <div class="head_txt">
+            <p>Free shipping, 30-day return or refund guarantee.</p>
+          </div>
+          <div class="sing_in_up">
+            <a href="sign-up.html">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              src="/imges/logo,png.png"
+              alt="thapa eCommerce logo"
+              class="logo"
+              width="80%"
+              height="auto"
+            />
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home </a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="products.html" class="nav-link">products</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="addToCart.html"
+                class="nav-link add-to-cart-button"
+                id="cartValue"
+              >
+                <i class="fa-solid fa-cart-shopping"></i> 0</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="contact-left-title">
+              <h2>Get in touch</h2>
+              <hr>
+          </div>
+          <input type="hidden" name="access_key" value="62ae0ecb-8680-4973-9640-7f7ce4168211">
+          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+          <input type="text" name="email" placeholder="Your Email" class="contact-inputs" required>
+          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+          <button type="submit">Submit  <img src="/imges/arrow_icon.png" alt="arrow icon"></button>
+
+      </form>
+      <div class="contact-right">
+          <img src="/imges/Gojo img.png" alt="Gojo">
+
+      </div>
+  </div>
+  
+</body>
+</html>
+
+ 
+    <footer class="section-footer">
+      <div class="footer-container container">
+        <div class="content_1">
+          <img src="/imges/logo,png.png" alt="logo" />
+          <p>
+            Welcome to GEN-Z Store, your ultimate destination for
+            Anima world!
+          </p>
+          <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+        </div>
+        <div class="content_2">
+          <h4>SHOPPING</h4>
+          <a href="#">Anima Figurs</a>
+          <a href="#">Keychains</a>
+          <a href="#">Keychains</a>
+          <a href="#">Sales & Discount</a>
+        </div>
+        <div class="content_3">
+          <h4>Experience</h4>
+          <a href="./contact.html">Contact Us</a>
+          <a href="" target="_blank">Payment Method</a>
+          <a href="" target="_blank">Delivery</a>
+          <a href="" target="_blank">Return and Exchange</a>
+        </div>
+        <div class="content_4">
+          <h4>NEWSLETTER</h4>
+          <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+          <div class="f-mail">
+            <input type="email" placeholder="Your Email" />
+            <i class="bx bx-envelope"></i>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="f-design">
+        <div class="f-design-txt">
+          <p>Copyrights all reserved 2024-2025</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script type="module" src="/main.js"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

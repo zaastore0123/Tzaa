@@ -1,0 +1,172 @@
+[
+    {
+      "id": 1,
+      "name": "Goku",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 750,
+      "stock": "100000",
+      "description": "pvc metrial made with high quality goku figures for dragonball fans made for kids/teenagers and can be gift in any festival",
+      "image":"/imges/goku figure img.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Demon Slayer keychain",
+      "category": "Keychain",
+      "brand": "pvc keychain",
+      "price": 200,
+      "stock": "99999",
+      "image": "/imges/demon slayer keychain img.jpg",
+      "description":"high quality keychain of demon slayer fans for kids/teenagers/adults can be gift in any festival"
+    },
+    {
+      "id": 3,
+      "name": "gojo hoodie",
+      "category": "Hoodie",
+      "brand": "king-hoodies",
+      "price": 500,
+      "stock": "100000",
+      "image": "/imges/gojo hoodie img.jpg",
+      "description": "winter_stylish hoodies of men casual ware and made with high quality meterial ."
+    },
+    {
+      "id": 4,
+      "name": "demon slayer 6-set of figures",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 800,
+      "stock": "80000",
+      "image": "/imges/demon slayer figure set.jpg",
+      "description": "pvc metrial made with high quality demon slayer figures for demon slayer  fans made for kids/teenagers and can be gift in any festival"
+    },
+    {
+      "id": 5,
+      "name": "itachi figure",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 500,
+      "stock": "50000",
+      "image": "/imges/itachi figure img (1).jpg",
+      "description": "pvc metrial made with high quality naruto figures for naruto fans made for kids/teenagers and can be gift in any festival"
+    },
+    {
+      "id": 6,
+      "name": "gojo figure",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 400,
+      "stock": "10000",
+      "image": "/imges/gojo figure img.jpg",
+      "description": "pvc metrial made with high quality gojo figures for jujustu kaisen  fans made for kids/teenagers and can be gift in any festival"
+    },
+
+
+    {
+      "id": 7,
+      "name": "demon slayer hoodie",
+      "category": "Hoodie",
+      "brand": "king-hoodies",
+      "price": 1200,
+      "stock": "5000",
+      "image": "/imges/demon slayer hoodie img.jpg",
+      "description": "winter_stylish hoodies of men casual ware and made with high quality meterial for demon slayer fans."
+    },
+
+    {
+      "id": 8,
+      "name": "one-piece figure",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 800,
+      "stock": "2000",
+      "image": "/imges/one-pice figure img.jpg",
+      "description": "pvc metrial made with high quality figures for one-pices fans made for kids/teenagers and can be gift in any festival"
+    },
+
+    {
+      "id": 9,
+      "name": "rangoku figure",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 500,
+      "stock": "3000",
+      "image": "/imges/rengoku figure img.jpg",
+      "description": "pvc metrial made with high quality figures for demon slayer fans made for kids/teenagers and can be gift in any festival"
+    },
+
+    {
+      "id": 10,
+      "name": "sasuke figure",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 570,
+      "stock": "1000",
+      "image": "/imges/sasuke figure img.jpg",
+      "description": "pvc metrial made with high quality figures for naruto fans made for kids/teenagers and can be gift in any festival"
+    },
+
+    {
+      "id": 11,
+      "name": "nezuko figure",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 400,
+      "stock": "4000",
+      "image": "/imges/nezuko figure img.jpg",
+      "description": "pvc metrial made with high quality figures for demon slayer fans made for kids/teenagers and can be gift in any festival"
+    },
+
+    {
+      "id": 12,
+      "name": "naruto hoodie",
+      "category": "Hoodie",
+      "brand": "king-hoodies",
+      "price": 450,
+      "stock": "8000",
+      "image": "/imges/naruto hoodie img.jpg",
+      "description": "winter_stylish hoodies of men casual ware and made with high quality meterial for naruto fans."
+    },
+
+    {
+      "id": 13,
+      "name": "kakashi figure",
+      "category": "anima figures",
+      "brand": "pvc toys",
+      "price": 550,
+      "stock": "6000",
+      "image": "/imges/kakashi figure img.jpg",
+      "description": "pvc metrial made with high quality naruto figures for naruto fans made for kids/teenagers and can be gift in any festival"
+    },
+
+    {
+      "id": 14,
+      "name": "naruto keychain",
+      "category": "Keychain",
+      "brand": "pvc toys",
+      "price": 350,
+      "stock": "10000",
+      "image": "/imges/naruto keychain img (1).jpg",
+      "description": "pvc metrial made with high quality naruto keychains for naruto fans made for kids/teenagers and can be gift in any festival"
+    },
+
+
+    {
+      "id": 15,
+      "name": "one-piece keychain",
+      "category": "Keychain",
+      "brand": "pvc toys",
+      "price": 150,
+      "stock": "8000",
+      "image": "/imges/one-pice keychain img.jpg",
+      "description": "pvc metrial made with high quality one-piece  keychains for one-piece fans made for kids/teenagers and can be gift in any festival"
+    }
+
+
+
+
+
+
+
+
+
+  ]
